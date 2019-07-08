@@ -15,7 +15,7 @@ function calculatesFarePrice(sblock, eblock){
     return 'your ride is on the house';
   }
   else if (distance > 400 && distance <= 2000) {
-    return 'your fees is '(distance - 400)*0.02;  
+    return 'your fees is '(distance - 400)*0.02;
   }
   else if (distance > 2000 && distance <= 2500){
     return 'your fees is ' 25;
