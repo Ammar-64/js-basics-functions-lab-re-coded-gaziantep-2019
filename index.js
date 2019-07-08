@@ -18,7 +18,7 @@ function calculatesFarePrice(sblock, eblock){
     return 'your fees is '(distance - 400)*0.02;
   }
   else if (distance > 2000 && distance <= 2500){
-    return 'your fees is ' 25;
+    return 'your fees is 25';
   }
   else {
     return 'cannot travel that far'
