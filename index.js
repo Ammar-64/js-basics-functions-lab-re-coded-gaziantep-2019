@@ -9,3 +9,12 @@ function distanceFromHqInFeet(dblock){
 function distanceTravelledInFeet(sblock, eblock){
   return Math.abs(sblock - eblock) * 264;
 }
+function calculatesFarePrice(sblock, eblock){
+  let distance = Math.abs(sblock - eblock) * 264;
+  if (distance <= 400){
+    return 'your ride is on the house'
+  }
+  else if (distance > 400 && distance <= 2500) {
+    return 'your fees is '(distance - 400)*0.02    
+  }
+}
